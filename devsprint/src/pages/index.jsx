@@ -1,3 +1,4 @@
+import BlogPost from "@/component/BlogPost";
 import Discuss from "@/components/Discuss/Discuss";
 import HireMe from "@/components/HireMe/HireMe";
 import MyResult from "@/components/MYResulta";
@@ -13,6 +14,7 @@ export default function Home() {
     <HireMe></HireMe>
     <MyResult></MyResult>
     <Discuss></Discuss>
+    <BlogPost></BlogPost>
     <Footer></Footer>
    </>
    

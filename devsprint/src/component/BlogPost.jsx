@@ -1,7 +1,7 @@
 import React from 'react'
 import BlogCard from './BlogCard';
 
-const Blog = () => {
+const BlogPost = () => {
     const blogPosts = [
         {
           image: '/assets/Frame 60-2.svg', // Use images from the "public" folder
@@ -49,4 +49,4 @@ const Blog = () => {
       );
 }
 
-export default Blog
+export default BlogPost
