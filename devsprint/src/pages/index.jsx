@@ -1,9 +1,7 @@
-import HireMe from "@/components/HireMe/HireMe";
+import Footer from "@/componets/Footer/Footer";
 
 export default function Home() {
   return (
-    <div>
-      <HireMe/>
-    </div>
-  );
+    <Footer></Footer>
+  )
 }
