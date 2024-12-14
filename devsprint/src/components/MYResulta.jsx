@@ -1,8 +1,10 @@
 import React from 'react';
+import HorizontalScroll from './ImageSlider';
+import ImageSlider from './ImageSlider';
 
 function MyResult() {
   return (
-    <div className="bg-[#f8faff] py-12 px-6">
+    <div className="bg-[#f8faff] py-12 ">
       {/* Header Section */}
       <div className="text-center mb-12">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
@@ -16,9 +18,9 @@ function MyResult() {
       </div>
 
       {/* Testimonials Section */}
-     <div >
-      <img src="..\assets\Frame 47557(1).png" />
-     </div>
+      <div className="flex justify-center items-center  ">
+        <ImageSlider></ImageSlider>
+      </div>
     </div>
   );
 }
