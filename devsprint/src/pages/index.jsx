@@ -1,5 +1,9 @@
+import HireMe from "@/components/HireMe/HireMe";
+
 export default function Home() {
   return (
-    <p>hhhhhhhhh</p>
+    <div>
+      <HireMe/>
+    </div>
   );
 }
