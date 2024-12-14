@@ -1,7 +1,8 @@
-import Footer from "@/componets/Footer/Footer";
+import NavBar from "@/compument/Navbar/Navbar";
 
 export default function Home() {
   return (
-    <Footer></Footer>
-  )
+   
+    <NavBar></NavBar>
+  );
 }
