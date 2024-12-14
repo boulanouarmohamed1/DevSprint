@@ -1,6 +1,6 @@
-import Mywork from "@/components/Mywork";
+import MyResult from "@/components/MYResulta";
+
 export default function Home() {
   return (
-<Mywork></Mywork> 
-  );
+<MyResult></MyResult>  );
 }
