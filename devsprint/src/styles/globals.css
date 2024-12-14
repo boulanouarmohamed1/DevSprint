@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hidden {
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
