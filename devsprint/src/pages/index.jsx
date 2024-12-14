@@ -1,5 +1,7 @@
+import Footer from "@/componets/Footer/Footer";
+
 export default function Home() {
   return (
-    <p>hhhhhhhhh</p>
-  );
+    <Footer></Footer>
+  )
 }
