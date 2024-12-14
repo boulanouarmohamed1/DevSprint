@@ -1,6 +1,9 @@
-import MyResult from "@/components/MYResulta";
+import HireMe from "@/components/HireMe/HireMe";
 
 export default function Home() {
   return (
-<MyResult></MyResult>  );
+    <div>
+      <HireMe/>
+    </div>
+  );
 }
