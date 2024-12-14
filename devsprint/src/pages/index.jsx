@@ -1,4 +1,6 @@
-import BlogCard from '../component/BlogCard.js'; // Adjust component path
-
+import Mywork from "@/components/Mywork";
 export default function Home() {
+  return (
+<Mywork></Mywork> 
+  );
 }
