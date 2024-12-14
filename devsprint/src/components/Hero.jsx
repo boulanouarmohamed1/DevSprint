@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Home() {
+function Hero() {
   return (
     <div className="font-sans mx-auto max-w-5xl text-center">
       {/* Main Content */}
@@ -53,4 +53,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Hero;

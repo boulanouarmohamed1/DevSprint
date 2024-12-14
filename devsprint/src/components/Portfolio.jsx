@@ -1,5 +1,5 @@
 import Service from "../components/Service.jsx"
-const Services = () => {
+const Portfolio = () => {
     const services = [
         {
           title: "UI/UX Design",
@@ -42,4 +42,4 @@ const Services = () => {
   )
 }
 
-export default Services
+export default Portfolio
