@@ -1,6 +1,12 @@
-import Services from "@/components/Services";
-export default function Home() {
+import Home from '@/components/Home'
+import '../styles/globals.css'
+
+function FRT() {
   return (
-    <Services />
-  );
+   <>
+   <Home></Home>
+   </>
+  )
 }
+
+export default  FRT;
