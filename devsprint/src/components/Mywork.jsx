@@ -7,7 +7,7 @@ function Mywork() {
       <div className="max-w-6xl mx-auto px-4">
         {/* Section Title */}
       <div className=" pb-10">
-        <h2 className="text-4xl font-semibold text-center mb-8 ">
+        <h2 className="text-6xl font-semibold text-center mb-8 ">
           My <span className="text-blue-500">Work Experience</span>
         </h2>
         </div>
